@@ -8,5 +8,5 @@
 ## Installation
 
 ```
-Install-Package Soenneker.Enums.EventType
+dotnet add package Soenneker.Enums.EventType
 ```
