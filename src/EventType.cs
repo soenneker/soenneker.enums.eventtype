@@ -1,11 +1,11 @@
-﻿using Ardalis.SmartEnum;
+﻿using Soenneker.SmartEnum.Named;
 
 namespace Soenneker.Enums.EventType;
 
 /// <summary>
 /// A generic enum for CRUD (Create, Read, Update, Delete)
 /// </summary>
-public sealed class EventType : SmartEnum<EventType>
+public sealed class EventType : NamedSmartEnum<EventType>
 {
     public static readonly EventType Create = new(nameof(Create), 0);
     public static readonly EventType Read = new(nameof(Read), 1);
